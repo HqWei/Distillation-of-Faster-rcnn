@@ -11,7 +11,8 @@ https://blog.csdn.net/qq_33547191/article/details/95049838
 http://papers.nips.cc/paper/6676-learning-efficient-object-detection-models-with-knowledge-distillation.pdf
 
 ### 2.Distillation for faster rcnn in feature level +mask
-cvf.com/content_CVPR_2019/html/Wang_Distilling_Object_Detectors_With_Fine-Grained_Feature_Imitation_CVPR_2019_paper.html
+
+http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Distilling_Object_Detectors_With_Fine-Grained_Feature_Imitation_CVPR_2019_paper.pdf
 
 #### code:
  https://github.com/twangnh/Distilling-Object-Detectors
