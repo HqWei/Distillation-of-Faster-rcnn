@@ -1,4 +1,4 @@
-   output = model(to_device(input))
+        output = model(to_device(input))
         output_teacher = model_teacher(to_device(input))
 
 
