@@ -100,7 +100,7 @@ def vis_one_img(img_root,grountruth_file,vis_num):
     img_name=line_dic['filename']
     print(img_name,flush=True)
     img_position = os.path.join(img_root,img_name)
-    # img_position='/home/SENSETIME/weihuaqiang/Project/openpose/openpose/good/imgs/image-00095.jpeg'
+   
     image = cv2.imread(img_position, cv2.IMREAD_COLOR)
     img = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     plt.ion()
