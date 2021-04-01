@@ -19,3 +19,10 @@ http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Distilling_Object_Det
 #### code:
  https://github.com/twangnh/Distilling-Object-Detectors
  
+ 
+ main.py 里面介绍在哪里加入蒸馏
+ adaplayer.py 是针对teacher和student的feature map大小不相同时进行特征图大小进行变换
+ loss.py是如何计算分类和回归的蒸馏loss，其实就是计算他们的相似度
+ 
+ 蒸馏在teacher和student的精度差距非常大时效果特别明显。
+ 
