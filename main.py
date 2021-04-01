@@ -1,3 +1,5 @@
+        from mimic_loss import  compute_loss_classification,compute_loss_classification
+        
         output = model(to_device(input)) #student输出
         output_teacher = model_teacher(to_device(input)) #teacher输出
 
